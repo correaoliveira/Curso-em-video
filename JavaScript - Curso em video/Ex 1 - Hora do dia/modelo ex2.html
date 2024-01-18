@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--<meta http-equiv="refresh" content="1.0">-->
+    <title>Hora do dia</title> 
+    <link rel="stylesheet" href= "estilo ex2.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1 id = "titulo"> Verificador de idade</h1>
+    </header>
+
+    <section>
+        
+        <div id = "area"> 
+            <p> Ano de nascimento:
+                <input type="number" name = "txtano" id="txtano" >
+            </p> 
+            <p> Sexo:
+                <input type="radio" name = "radsex" id="masc">
+                <label for = "masc"> Masculino</label>
+                <input type="radio" name = "radsex" id="fem">
+                <label for = "fem"> Feminino</label>
+               
+            </p> 
+            <p> <input type = "button" value ="Verificar" onclick="verificar()" ></p>
+        </div>
+        <div id = "msg">   A idade da pessoa eh:  
+            
+           <!-- <img id ="img" src ="idade.png" alt="fotos"> <img id ="img" src ="dia.png" alt = "Foto do dia"> -->
+       
+        </div>
+        <div id = "foto">      
+            <img id ="img" src ="idade.png" alt="fotos">
+        </div>
+        
+    </section>
+
+    <footer>
+        <p id = "nome"> &copy; Produzido por Gabriel </p>
+    </footer>
+
+    <script src= "script ex2.js">  </script>
+</body>
+</html>

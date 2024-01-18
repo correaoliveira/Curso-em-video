@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="1.0"> -->
+    <title>Adicionador de numeros </title>
+    <link rel="stylesheet" href= "estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1 id = "titulo"> Adicionar numeros</h1>
+    </header>
+
+    <section>
+        <div id = "area"> 
+            <p> Digite um numero de 1 a 100:
+                <input type = 'number' name = 'numero' id = 'txtn'>
+                <input type = "button" value="Adicionar" name = "adicionar" id="add" onclick ="adicionar()">
+        </div>
+        <div id = "res"> Numeros adicionados <br>
+            <select id="tabela" size = "10" width = "10" >
+            </select> <br>
+            <input type = "button" value="Finalizar" name = "finalizar" id="finalizar" onclick ="finalizar()">
+        </div>
+        <div id = "dados"> Os dados dos inputs serao exibidos aqui!
+            <p id = "len"></p> 
+            <p id = "maior"></p> 
+            <p id = "menor"></p> 
+            <p id = "soma"></p> 
+            <p id = "med"></p> 
+
+        </div>
+        
+        
+    </section>
+
+    <footer>
+        <p id = "nome"> &copy; Gabriel Oliveira </p>
+    </footer>
+
+    <script src= "script.js">  </script>
+</body>
+</html>
